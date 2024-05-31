@@ -1,0 +1,126 @@
+/* reset css  */
+
+*{
+  margin : 0;
+  padding: 0;
+  
+}
+body{
+  background-color: #f0f2f5;
+  box-sizing: border-box;
+  font-family:poppins;
+}
+
+li{
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+/* fb add bio css  */
+
+.fb-bio-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.fb-bio-card{
+  width: 500px;
+  background-color:  #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.fb-add-bio button{
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  
+}
+
+.fb-add-bio button:hover{
+  background-color: #e4e6eb;
+}
+
+/* fb edit bio css  */
+
+.fb-edit-bio textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.fb-edit-bio p{
+  text-align: end;
+  font-size: 12px;
+}
+
+.fb-edit-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.fb-edit-btn button {
+  font-size: 14px;
+  padding: 9px 16px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  margin-left: 5px;
+  font-weight: 600;
+  color: #1e1f1f;
+  background-color: #e4e6eb;
+}
+.fb-edit-bio textarea::placeholder{
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  
+}
+.fb-edit-bio textarea:hover{ 
+ background-color:  #f0f2f5;
+}
+
+/* fb show css  */
+
+.fb-show-bio p{
+  text-align: center;
+  margin: 10px 0px;
+  color: #828282;
+  font-size: 16px;
+}
+
+.fb-show-bio button {
+  width: 100%;
+  font-size: 16px;
+  padding: 9px 16px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  margin-left: 5px;
+  font-weight: 600;
+  color: #1e1f1f;
+   background-color: #f0f2f5;
+}
+
+.fb-show-bio button:hover{
+ 
+  background-color: #e4e6eb;
+
+}
+
+.fb-edit-bio, .fb-show-bio{
+  display: none;
+}
